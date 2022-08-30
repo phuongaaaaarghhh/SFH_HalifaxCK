@@ -1,0 +1,42 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: block;
+    
+}
+
+#topNav {
+    background-color: #3434f2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: auto;
+}
+
+#sidebar {
+    width:200px;
+    height: 100%;
+    background-color: #3434f2;
+}
+
+.coverphoto {
+    background: rgb(210, 218, 251) url(img/canoe.jpeg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.coverphoto > p {
+    position: relative;
+    text-align: center;
+    ;
+    
+    
+}
+
