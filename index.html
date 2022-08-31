@@ -6,56 +6,68 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     
-    <title>Document</title>
+    <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
     <script>
-        $(document).ready(function()) {
-            $("#hamburgerBtn").click(function()) {
+        $(document).ready(function() {
+            $("#hamburgerBtn").click(function() {
                 $("#sidebar").slideToggle()
-            }
+            });
         });
     </script>
     <header>
         <div id="topNav">
             <img id="hamburgerBtn" src="img/hamburger.png" alt="Hamburger Menu Icon" width="50px">
-            <p>Halifax Canoe and Kayak</p>
-            <img src="img/paddle-white.png" alt="Paddle Icon" width="50px">
+            <p><b>Halifax Canoe and Kayak</b></p>
+            <img id="logoTop" src="img/paddle-white.png" alt="Paddle Icon" width="50px">
         </div>
+
         <div id="sidebar">
             <ul>
-                <li>Home</li>
-                <li>Book Trip</li>
-                <li>Admin Login</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book Trip</a></li>
+                <li><a href="#">Admin Login</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="coverphoto">
+        <div class="container">
             <p>Come and Experience Canada</p>
-            
-        </section>
-        <h1>Upcoming Adventures</h1>
-        <hr>
-        <h2>Halifax</h2>
-            <p>Date: 2017-04-12</p>
-            <p>Duration: 4 days</p>
-            
-            <h4>Summary</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+        </div>
         
-        <h2>Sydney</h2>
-            <p>Date: 2017-05-10</p>
-            <p>Duration: 2 days</p>
-            
-            <h4>Summary</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content">
+            <h1>Upcoming Adventures</h1>
+            <hr>
+            <br>
+            <article>
+                <h2><a href="#">Halifax</a></h2>
+                    <p>Date: 2017-04-12</p>
+                    <p>Duration: 4 days</p>
+                    
+                    <h4>Summary</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <br>
+
+                <h2><a href="#">Sydney</a></h2>
+                    <p>Date: 2017-05-10</p>
+                    <p>Duration: 2 days</p>
+                    
+                    <h4>Summary</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+        </div>  
     </main>
 </body>
+<footer>
+    <br>
+</footer>
 </html>
